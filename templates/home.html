@@ -3,32 +3,57 @@
 <head>
   <title> Welcome to Bachir Freight LLC Website </title>
   <style>
-    h1 {
+    /* h1 styles */
+    h1{
       font-size: 40px;
       font: 1em sans-serif;ont-family: Roboto;
       font-weight: normal;
-      color: rgb(100, 100, 100);
+      color: rgb(50, 50, 50);
       text-align: center;
       }
-    #banner {
+    /* Class style */
+    .bodytext{
+      font-family: Roboto;
+      color: rgb(80, 80, 80);
+      
+    }
+    /* id style for the top image */
+    #banner{
       width: 100%;
       height: 300px;
       object-fit: cover; 
       }
-    
+    /* h2 styles */
+    h2{
+      font-size: 32px;
+      font-family: Roboto;
+      color: rgb(100, 100, 100);
+      text-align: center;
+      font-weight: normal;
+      }
+    /* Centre element in the div with id=container on the web page */
+    #container{
+      max-width: 720px;
+      margin: 0 auto;  
+    }
   </style>
 </head>
 <body>
-  <h1>BACHIR FREIGHT LLC</h1>
+    
+  <h1> BACHIR FREIGHT LLC </h1> <!-- to insert image on top -->
   <img id="banner", src="https://bachir-freight-llc-website-5.abdouhabibou.repl.co/static/john-simmons-N7_NUUtCkDU-unsplash.jpg", >
-  <h2>About BASHIR FREIGHT LLC</h2>
-  <p>
+  <div id=container> <!-- to center the page text -->
+    <h2>About BACHIR FREIGHT LLC</h2>
+    <p class="bodytext">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-  <h2>  </h2>
-  <p>Todo -show  </p>
-  <button> Contact Us </button>
-</body>
+    </p>
+    <h2>Option of Transport</h2>
+    <p class="bodytext">Todo -show  </p>
+    <div style="text-align:center;"> <!-- Add a button align to the center of the web page -->
+      <button> Contact Us </button> <!-- to add button -->
+      <p>  Copyright 2023, BACHIR FREIGHT LLC </p>
+    </div>
+  </div>
 </body>
 
 </html>
