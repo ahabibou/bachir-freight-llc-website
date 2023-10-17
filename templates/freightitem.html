@@ -1,0 +1,20 @@
+<div class="border-bottom row"; style="margin-bottom:20px; padding-bottom:8px;">
+  <div class="col-11">
+      <h4 style="color:rgb(120,120,120); margin-bottom:4px;">{{freight['title']}}</h4>
+    
+      <div>
+          <h6><b class="text-danger">Location:</b> {{freight['location']}}</h6>
+      </div>
+    
+      {% if 'destination' in freight %} <!-- If destination is empty -->
+      <div>
+          <h6><b class="text-danger">Destination:</b> {{freight['destination']}}</h6>
+      </div>
+      {% endif %}                                                                              
+  </div>
+  
+  <div class="col-1">
+      <button type="button" class="btn btn-outline-primary"><b>Apply</b></button>
+  </div>
+  
+</div>
