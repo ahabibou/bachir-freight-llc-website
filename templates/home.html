@@ -15,17 +15,17 @@
 </head>
 <body>
   {% include 'nav.html' %}
-  <h4 class="text-center mt-4 mb-4"> {{compagny_name}} </h4> <!-- to insert image on top -->
+  <h4 class="text-center mt-4 mb-4"> <blink><marquee behavior="scroll" direction="left">This website is under construction</marquee> </blink></h4> <!-- to insert image on top -->
   <img class="img-fluid" id="banner" src="https://bachir-freight-llc-website-5.abdouhabibou.repl.co/static/john-simmons-N7_NUUtCkDU-unsplash.jpg", >
   <div class="container"> <!-- to center the page text -->
     <h2 class="text-center"> About {{compagny_name}} </h2>
     <div class="row" style="margin-bottom:16px">
-      <div class="col-md-6">
+      <div class="col-md-7">
         <p class="lead">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div class="d-none d-md-block col-md-6"><!-- d-none: donot display, md: on media as phone -->
+      <div class="d-none d-md-block col-md-5"><!-- d-none: donot display, md: on media as phone -->
         <img src="static/people.jpg" style="height:320px; border-radius:4px;">
       </div>
       <h2>Option of Transport</h2>
@@ -37,7 +37,7 @@
       </div>
     </p>
     <div class="text-center"> <!-- Add a button align to the center of the web page -->
-      <button type="button" class="btn btn-secondary">Contact Us</button><!-- to add button -->  
+      <a href="mailto:abdou_habibou@yahoo.com?subject=Question%20about%20Transportation&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20question%3A%20%3CEnter%20your%20question%3E" type="button" class="btn btn-secondary">Contact Us</a><!-- to add button -->  
     </div>
   </div>
   {% include 'footer.html' %}
